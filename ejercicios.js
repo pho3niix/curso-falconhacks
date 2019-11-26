@@ -222,3 +222,52 @@ console.log('Id | Nombre | ' + 'Materia');
 for(let i=0; i<maestros.length; i++){
     console.log(maestros[i].id +' '+ maestros[i].nombre +' '+ maestros[i].materia);
 }
+
+// Funciones
+function greet(){
+    return 'Hola';
+}
+
+function same(){
+    let now = 'Saludos';
+    return now;
+}
+console.log(now);
+
+var sol = 'Vientos';
+function other(){
+    return sol;
+}
+
+function params(nombre){
+    return 'Hola ' + nombre;
+}
+
+function condicion(a){
+    if(a==1){
+        return 'Elegiste la opcion 1';
+    }else if(a==2){
+        return 'Elegiste la opcion 2';
+    }else if(a==3){
+        return 'Elegiste la opcion 3';
+    }else{
+        return 'Fuera de rango';
+    }
+}
+
+function varios(a,b){
+    var resultado = a + b;
+    return resultado;
+};
+
+hola=()=>{
+    return 'Hola';
+}
+
+//llamar a una funcion
+hola();
+condicion(1);
+condicion(2);
+same();
+varios(1,2);
+varios(12,15);
