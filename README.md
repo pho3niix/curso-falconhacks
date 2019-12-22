@@ -8,7 +8,7 @@ Para imprimir un mensaje en consola se usa el siguiente codigo:
 console.log('Hello Mars')
 ```
 ### Comentarios
-Los comentarios son utiles para los programadores ya que les sirven para recordar lo que hace su codigo tiempo despues de haber escrito su codigo:
+Los comentarios son utiles para los programadores ya que les sirven para recordar lo que hace su codigo tiempo despues de haberlo escrito:
 ```javascript
 // Soy un comentario de una sola linea
 /*Soy un comentario 
