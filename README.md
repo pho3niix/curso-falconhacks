@@ -24,8 +24,8 @@ function greet(){
     return saludo + ' ' +  name;
 }
 ```
-### Variables tipo numerico
-Javascript interpreta en automatico el tipo de valor que se le esta asignando por lo tanto no es necesario indicar el tipo de variable
+### Variables
+Javascript interpreta en automatico el tipo de valor que se le esta asignando a una variable por lo tanto no es necesario indicarlo
 ```javascript
 //Esto es correcto
 var numero = 1;
@@ -70,7 +70,7 @@ var apellido = Costilla;
 //De esta manera javascript interpreta el valor asignado como una variable, de no estar declaradas con anterioridad se imprimira un error
 ```
 ### Variables booleanas
-Este tipo de variables retornan solamente 2 resultados posible ya sea falso o verdadero.
+Este tipo de variables retornan solamente 2 resultados posibles (falso o verdadero).
 
 Nota: no es necesario asignar el valor entre comillas.
 ```javascript
